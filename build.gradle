@@ -1,0 +1,18 @@
+plugins {
+    id "org.jetbrains.intellij" version "1.15.0"
+}
+
+intellij {
+    version = "2023.2.1"
+    type = "IU"
+    plugins = [
+            "com.intellij.bigdatatools.binary.files:232.8660.206",
+            "com.intellij.bigdatatools.core:232.9559.62",
+            "com.intellij.bigdatatools.metastore.core:232.9559.62",
+            "com.intellij.bigdatatools.rfs:232.9559.62",
+            "com.intellij.bigdatatools.spark:232.9559.62",
+            "com.intellij.bigdatatools.zeppelin:232.8660.206",
+            "org.intellij.scala:2023.2.23",
+            "Pythonid:232.9559.62"
+    ]
+}
