@@ -19,25 +19,35 @@ cd intellij-bigdata-bug
 ./gradlew runIde
 ```
 
-### Open Example Project One
+### Open `intellij-bigdata-bug/example/project-one`
+
+#### Click Open Button
 
 <p align="center">
 <img src="docs/images/00_open_example_project_one.png" width="480">
 </p>
 
+#### Locate Project -> Click Open Button
+
 <p align="center">
 <img src="docs/images/01_open_example_project_one.png" width="480">
 </p>
 
-### Open Example Project Two
+### Open `intellij-bigdata-bug/example/project-two`
+
+#### Open File Menu -> Click "Open..."  
 
 <p align="center">
 <img src="docs/images/02_open_example_project_two.png">
 </p>
 
+#### Locate Project -> Click Open Button
+
 <p align="center">
 <img src="docs/images/03_open_example_project_two.png">
 </p>
+
+#### Open in New Window
 
 <p align="center">
 <img src="docs/images/04_open_example_project_two.png">
@@ -45,17 +55,25 @@ cd intellij-bigdata-bug
 
 ### Add Python SDK
 
+#### Click "IDE and Project Settings" Icon -> Click "Project Structure..."
+
 <p align="center">
 <img src="docs/images/05_add_python_sdk.png">
 </p>
+
+#### Click "Platform Settings -> SDKs" -> Click "+" Icon -> Click "Add Python SDK..."
 
 <p align="center">
 <img src="docs/images/06_add_python_sdk.png">
 </p>
 
+#### Accept Defaults and Click "OK" Button
+
 <p align="center">
 <img src="docs/images/07_add_python_sdk.png">
 </p>
+
+#### Click "Apply" Button
 
 <p align="center">
 <img src="docs/images/08_add_python_sdk.png">
@@ -63,9 +81,13 @@ cd intellij-bigdata-bug
 
 ### Add Python Facet to Project Two
 
+#### Click "Project Settings -> Modules" -> Select "project-two" module -> Click "+" Button -> Click "Python"
+
 <p align="center">
 <img src="docs/images/09_add_python_facet.png">
 </p>
+
+#### Select "Python 3.x (project-two)" SDK
 
 <p align="center">
 <img src="docs/images/10_add_python_facet.png">
@@ -73,9 +95,13 @@ cd intellij-bigdata-bug
 
 ### Add Zeppelin Connection
 
+#### Open "Big Data Tools" Menu -> Click on "Zeppelin"
+
 <p align="center">
 <img src="docs/images/11_add_zeppelin_connection.png">
 </p>
+
+#### Accept Defaults and Click "OK" Button
 
 <p align="center">
 <img src="docs/images/12_add_zeppelin_connection.png">
@@ -83,9 +109,13 @@ cd intellij-bigdata-bug
 
 ### Create and Open Zeppelin Notebook
 
+#### Open "Big Data Tools" Menu -> Right-Click on "Zeppelin" Connection -> Click "Create Note..." 
+
 <p align="center">
 <img src="docs/images/13_create_and_open_zeppelin_notebook.png">
 </p>
+
+#### Enter Note Name and Click "OK" Button
 
 <p align="center">
 <img src="docs/images/14_create_and_open_zeppelin_notebook.png">
@@ -93,17 +123,25 @@ cd intellij-bigdata-bug
 
 ### Close - Open - Close Example Project Two
 
+#### Close `project-two`
+
 <p align="center">
 <img src="docs/images/15_close_example_project_two.png">
 </p>
+
+#### Open File Menu -> Click "Recent Projects" -> Click `project-two`  
 
 <p align="center">
 <img src="docs/images/16_open_example_project_two.png">
 </p>
 
+#### Open in New Window
+
 <p align="center">
 <img src="docs/images/17_open_example_project_two.png">
 </p>
+
+#### Close `project-two`
 
 <p align="center">
 <img src="docs/images/18_close_example_project_two.png">
