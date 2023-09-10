@@ -222,6 +222,7 @@ Broken consistency: false
 
 <details>
 <summary><b>AlreadyDisposedException</b></summary>
+
 ```
 com.intellij.serviceContainer.AlreadyDisposedException: Cannot create com.intellij.ide.util.PropertiesComponent because container is already disposed (container=Project(name=project-two, containerState=DISPOSE_COMPLETED, componentStore=/Users/kevin/Projects/github.com/aronim/intellij-bigdata-gradle-bug/examples/project-two) (disposed))
 	at com.intellij.serviceContainer.ContainerUtilKt.throwAlreadyDisposedError(containerUtil.kt:40)
